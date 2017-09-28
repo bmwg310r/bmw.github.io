@@ -1,0 +1,23 @@
+#logo {position: absolute;
+    left: 0;
+    top: 0;
+    width: 90px;
+    height: 90px;
+    background: url("bilder/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: gaatur 3s linear infinite;
+
+
+
+}
+
+@keyframes gaatur {
+0% { top:80; left: 0%;}
+23% {top:80; left: 80%}
+25% {top: 60%; left: 80%;}
+40% {top: 60%; left: 40%;}
+60% {top: 60%; left: 0%;}
+80% {top: 40%; left: 0%;}
+100% {top: 0%; left: 0%;}
+}
